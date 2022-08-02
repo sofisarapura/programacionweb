@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mi pagina de prueba</title>
+    </head>
+    <body>
+        <img src = "img/ucema_logo.png" alt = "logo de la ucema" width = "200px">
+
+        <div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <!--El nav me esta permitiendo crear un menú de opciones que lleva a distintos links-->
+        </div>
+        <div>
+            <section id="main">
+                <!--El id pesa mas que cualquier clase, porque el id tiene que ser para cada
+                elemento único e irrepetible
+                El selector-->
+                <div>
+                    <h1> Título en h1</h1>
+                    <!--el título en h1 ya esta en negrita, por lo que el atributo strong no tiene efecto en este
+                    texto.-->
+                    <video src="video/Nuevas Aulas Híbridas UCEMA- Excelencia y Libertad Responsable.mp4" 
+                    alt="video clases híbridas" width = "600px" controls type="video/mp4">
+                    Tu navegador no admite el elemento <code> video </code>
+                    <!-- Si por alguna razon el navegador no te permite reproducir el video, entonces te va a mostrar
+                    el msj "tu navegador no admite..."
+                    Esto lo puedo copiar y pegar de la pagina de mozzilla mdn, busco sobre "video" y me da información
+                    sobre esta etiqueta. Dentro de esta información esta posibilidad de rta frente al error-->
+                    </video>
+                    <h3>Un <em>Aleph</em></h3>
+                    <!--El em es para poner el texto en itálica-->
+                    <p>
+                        El nombre de Zunni me impresionó; su bufete, en Caseros y Tacuarí, es de una seriedad
+                        proverbial. Interrogué si éste se había encargado ya del asunto. Daneri dijo que le hablaría
+                        esa misma tarde. Vaciló y con esa voz llana, impersonal, a que solemos recurrir para
+                        confiar algo muy íntimo, dijo que para terminar el poema le era indispensable la casa, pues
+                        en un ángulo del sótano había un Aleph. 
+                        <br><br>Aclaró que un Aleph es uno de los puntos del espacio que contienen todos los puntos.
+                        <!--Este es un parrafo. El br sirve para hacer un salto de línea-->
+
+                    </p>
+                    <button id="botonpcpal">
+                        Click
+                    </button>
+                </div>
+
+
+            </section>
+        </div>
+        <footer>
+            Soy un footer
+            <!--El footer se comporta como un section-->
+        </footer>
+
+    </body>
+</html>
