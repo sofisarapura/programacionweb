@@ -1,0 +1,50 @@
+/*para comentar en los archivos css uso el */
+/*para todos los div en el archivo, se le va a dar un padding de 20 px*/
+div {
+    padding:20px; display:block
+}
+/*el padding es como un interlineado o margen interno */
+nav.menu{
+    background-color: black; 
+    display: flex;
+    flex-direction: row;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 24px;
+    background-color: rgb(122, 0, 0);
+}
+nav li{
+    margin-left: 20px;
+    list-style: none;
+    /* saca los puntitos de la lista*/
+   
+}
+nav a {
+    color: antiquewhite;
+    text-decoration: none
+    /*saca el subrayado de los links*/
+}
+/*seudoclase: el hover hace que cuando pases el mouse por encima del 
+boton, ponga un color distinto*/
+nav a:hover {
+    color:rgb(252, 0, 0);
+}
+#main {
+    background-color: blueviolet
+}
+
+body {
+    margin: 2%
+}
+.menu img {
+    max-height: 50 px;
+    width: auto;
+    display: flex
+    /* con esta medida es proporcional a la pantalla*/
+}
+.menu {
+    align-items: center
+}
