@@ -5,6 +5,7 @@
         <title>Mi pagina de prueba</title>
         <!--Como hacer para traer el file con lo de css-->
         <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         </head>
     <body>
         <div>
@@ -14,12 +15,18 @@
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Sobre nosotros</a></li>
                     <li><a href="#">Contacto</a></li>
+                    <!--Te lleva a la parte de la pagina que tiene id "respond". Cuando yo toco el
+                    boton comentarios, me lleva a la seccion de leave a review, que tiene el id "respond"
+                    El # por otro lado, indica que es un link interno.-->
+                    <li><a href="#respond">Comentarios</a></li>
                 </ul>
             </nav>
             <!--El nav me esta permitiendo crear un menú de opciones que lleva a distintos links-->
         </div>
         <div>
-            <a href="https://flexbox.malven.co/"> link flexbox</a>
+            <button type="button" class="btn btn-outline-warning">
+            <a href="https://flexbox.malven.co/"> link flexbox</a></button>
+            
         </div>
         <div>
             <section id="main">
@@ -54,6 +61,9 @@
                     <button id="botonpcpal">
                         Click
                     </button>
+                    <!-- boton de 3bootstrap-->
+                    <button type="button" class="btn btn-primary"> Primary
+                    </button>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-5">
                     <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style="font-size: 40px; line-height: 40px">
@@ -67,10 +77,10 @@
                       stet diam duo eos rebum ipsum diam ipsum elitr.
                     </p>
                     <div class="d-flex justify-content-start mt-4">
-                      <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-twitter"></i></a>
-                      <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-facebook-f"></i></a>
-                      <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-linkedin-in"></i></a>
-                      <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-instagram"></i></a>
+                      <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-twitter">a</i></a>
+                      <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-facebook-f">b</i></a>
+                      <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-linkedin-in">c</i></a>
+                      <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-instagram">d</i></a>
                     </div>
                   </div>
                   <!--Formularios-->
@@ -122,7 +132,11 @@
             </section>
         </div>
         <!-- Lo que esta aca arriba es la comment section, con la opcion de poner mail y nombre abajo.-->
-
+        <div>
+            <button type="button" class="btn btn-danger"><a href="https://languages.oup.com/google-dictionary-es/">Peligroso</a></button>
+            <button type="button" class="btn btn-warning"><a href="https://dle.rae.es/intermedio">Intermedio</a></button>
+            <button type="button" class="btn btn-success"><a href="https://www.argentina.gob.ar/superintendencia-de-seguros/conciencia-aseguradora/que-es-un-seguro">Seguro</a></button>
+        </div>
         <footer>
             Soy un footer
             <!--El footer se comporta como un section-->

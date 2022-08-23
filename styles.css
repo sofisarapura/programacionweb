@@ -24,17 +24,21 @@ nav li{
    
 }
 nav a {
-    color: antiquewhite;
+    color: rgb(26, 250, 45);
     text-decoration: none
     /*saca el subrayado de los links*/
 }
 /*seudoclase: el hover hace que cuando pases el mouse por encima del 
 boton, ponga un color distinto*/
+button a {
+    text-decoration: none;
+    color: black;
+}
 nav a:hover {
     color:rgb(252, 0, 0);
 }
 #main {
-    background-color: blueviolet
+    background-color: rgb(177, 226, 255)
 }
 
 body {
