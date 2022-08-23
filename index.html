@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mi pagina de prueba</title>
+        <!--Como hacer para traer el file con lo de css-->
+        <link rel="stylesheet" href="styles.css">
+        </head>
+    <body>
+        <div>
+            <nav class="menu">
+                <img src = "img/ucema_logo.png" alt = "logo de la ucema" width = "200px">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <!--El nav me esta permitiendo crear un menú de opciones que lleva a distintos links-->
+        </div>
+        <div>
+            <a href="https://flexbox.malven.co/"> link flexbox</a>
+        </div>
+        <div>
+            <section id="main">
+                <!--El id pesa mas que cualquier clase, porque el id tiene que ser para cada
+                elemento único e irrepetible
+                El selector-->
+                <div>
+                    <h1> Título en h1</h1>
+                    <!--el título en h1 ya esta en negrita, por lo que el atributo strong no tiene efecto en este
+                    texto.-->
+                    <video src="video/Nuevas Aulas Híbridas UCEMA- Excelencia y Libertad Responsable.mp4" 
+                    alt="video clases híbridas" width = "600px" controls type="video/mp4">
+                    Tu navegador no admite el elemento <code> video </code>
+                    <!-- Si por alguna razon el navegador no te permite reproducir el video, entonces te va a mostrar
+                    el msj "tu navegador no admite..."
+                    Esto lo puedo copiar y pegar de la pagina de mozzilla mdn, busco sobre "video" y me da información
+                    sobre esta etiqueta. Dentro de esta información esta posibilidad de rta frente al error-->
+                    </video>
+                    <h3>Un <em>Aleph</em></h3>
+                    <!--El em es para poner el texto en itálica-->
+                    <p>
+                        El nombre de Zunni me impresionó; su bufete, en Caseros y Tacuarí, es de una seriedad
+                        proverbial. Interrogué si éste se había encargado ya del asunto. Daneri dijo que le hablaría
+                        esa misma tarde. Vaciló y con esa voz llana, impersonal, a que solemos recurrir para
+                        confiar algo muy íntimo, dijo que para terminar el poema le era indispensable la casa, pues
+                        en un ángulo del sótano había un Aleph. 
+                        <br><br>Aclaró que un Aleph es uno de los puntos del espacio que contienen todos los puntos.
+                        <!--Este es un parrafo. El br sirve para hacer un salto de línea-->
+                    
+
+                    </p>
+                    <button id="botonpcpal">
+                        Click
+                    </button>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style="font-size: 40px; line-height: 40px">
+                      <i class="flaticon-043-teddy-bear"></i>
+                      <span class="text-white">Valores y atributos de la empresa</span>
+                    </a>
+                    <p>
+                        <!-- Este parrafo es tipico ejemplo para prgramar, el labore dolor amet ipsum. -->
+                      Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea
+                      dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr
+                      stet diam duo eos rebum ipsum diam ipsum elitr.
+                    </p>
+                    <div class="d-flex justify-content-start mt-4">
+                      <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-twitter"></i></a>
+                      <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                  </div>
+                  <!--Formularios-->
+                  <div id="respond" class="comment-respond">
+                    <h3 id="reply-title" class="comment-reply-title">Leave a Review!</h3>
+                    <form action="https://sallysbakingaddiction.com/wp-comments-post.php?wpe-comment-post=sallys2022" method="post" id="commentform" class="comment-form" novalidate="">
+                        <p class="comment-notes"><span id="email-notes">Your email address will not be published.</span>
+                        <p class="comment-form-comment">
+                            <label for="comment">Comment 
+                                <span class="required">*</span>
+                            </label>
+                            <textarea cols="45" rows="8" id="comment" name="comment" aria-required="true" placeholder="I loved this recipe so much!"></textarea>
+                        </p>
+                        <p class="comment-form-author">
+                            <label for="author">Name 
+                                <span class="required">*</span>
+                            </label>
+                            <input id="author" name="author" aria-required="true" placeholder="Jane Doe"></p>
+                        <p class="comment-form-email">
+                            <label for="email">Email 
+                                <span class="required">*
+                                </span>
+                            </label><input id="email" name="email" placeholder="janedoe@gmail.com">
+                        </p>
+            
+            
+                        <p class="form-submit">
+                            <p class="akismet_comment_form_privacy_notice">This site uses Akismet to reduce spam. 
+                            <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener">Learn how your comment data is processed</a>.
+                            </p>
+                            <input name="submit" type="submit" id="submit" class="submit" value="Submit"> 
+                            <input type="hidden" name="comment_post_ID" value="28022" id="comment_post_ID">
+                            <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+                        </p>
+                        <p style="display: none;">
+                            <input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="f75a060d61">
+                        </p>
+                        <p style="display: none !important;">
+                            <label>Δ
+                                <textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100">
+                                </textarea>
+                            </label>
+                            <input type="hidden" id="ak_js_1" name="ak_js" value="1659904258882">
+                                <script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );
+                                </script>
+                        </p>
+                    </form>	
+                </div>
+            </section>
+        </div>
+        <!-- Lo que esta aca arriba es la comment section, con la opcion de poner mail y nombre abajo.-->
+
+        <footer>
+            Soy un footer
+            <!--El footer se comporta como un section-->
+        </footer>
+
+    </body>
+</html>
