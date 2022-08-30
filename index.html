@@ -10,6 +10,7 @@
     <body>
         <div>
             <nav class="menu">
+                <!--nav es para crear una barra de navegacion-->
                 <img src = "assets/img/ucema_logo.png" alt = "logo de la ucema" width = "200px">
                 <ul>
                     <li><a href="#">Inicio</a></li>
@@ -137,6 +138,34 @@
             <button type="button" class="btn btn-warning"><a href="https://dle.rae.es/intermedio">Intermedio</a></button>
             <button type="button" class="btn btn-success"><a href="https://www.argentina.gob.ar/superintendencia-de-seguros/conciencia-aseguradora/que-es-un-seguro">Seguro</a></button>
         </div>
+        <section id="final">
+        <!-- section es un separador de contenido semantico, sirve para darle estilo y los navegadores reconocen un quiebre.
+        Bootstrap tiene la clase container, que centra el contenido. Tmbn esta el container fluid que pone el contenido de forma mas
+        dispersa. La clase container sirve para section y div-->
+        <!-- Hay distintos tipos de container que puedo sacar de Bootsrap-->
+            <div id="pruebacontainer" class="container">
+                <p> Hola que tal, estoy en container<br>El nombre de Zunni me impresionó; su bufete, en Caseros y Tacuarí, es de una seriedad
+                    proverbial. Interrogué si éste se había encargado ya del asunto. Daneri dijo que le hablaría
+                    esa misma tarde. Vaciló y con esa voz llana, impersonal, a que solemos recurrir para
+                    confiar algo muy íntimo, dijo que para terminar el poema le era indispensable la casa, pues
+                    en un ángulo del sótano había un Aleph. 
+                    <br><br>Aclaró que un Aleph es uno de los puntos del espacio que contienen todos los puntos.
+                    </p>
+            <!-- dentro del section va el container y dentro del container, el div. Al div le podemos poner tmbn class = 
+            "container" el col-6
+            o col-nroquesea para que divida en la cantidad de columnas que indique el nro-->
+            </div>
+            <div id="pruebacontainerfluid" class="container-fluid">
+                <p> Y un container fluid:<br>El nombre de Zunni me impresionó; su bufete, en Caseros y Tacuarí, es de una seriedad
+                    proverbial. Interrogué si éste se había encargado ya del asunto. Daneri dijo que le hablaría
+                    esa misma tarde. Vaciló y con esa voz llana, impersonal, a que solemos recurrir para
+                    confiar algo muy íntimo, dijo que para terminar el poema le era indispensable la casa, pues
+                    en un ángulo del sótano había un Aleph. 
+                    <br><br>Aclaró que un Aleph es uno de los puntos del espacio que contienen todos los puntos.
+                    </p>
+
+            </div>
+        </section>
         <footer>
             Soy un footer
             <!--El footer se comporta como un section-->
