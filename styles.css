@@ -1,7 +1,10 @@
 /*para comentar en los archivos css uso el */
 /*para todos los div en el archivo, se le va a dar un padding de 20 px*/
 div {
-    padding:20px; display:block
+    padding:20px; 
+    display:block;
+    animation-delay: 2s;
+    
 }
 /*el padding es como un interlineado o margen interno */
 nav.menu{
